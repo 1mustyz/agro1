@@ -1,0 +1,353 @@
+.nav {
+    background-color: #1b5e20;
+    display: flex;
+    /* height: 0.8rem; */
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.nav > * {
+    color: white;
+}
+
+.nav-list {
+    margin-left: 36rem;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list > * {
+    color: white;
+
+}
+
+.header-select {
+    border: none;
+    background-color: #1b5e20;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.header-button-one {
+    background-color: #ccff90;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.header-body {
+    height: 90vh;
+    padding-left: 2rem;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.header-header {
+    margin-top: 10rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.header-text {
+    margin-bottom: 1.5rem;
+
+}
+
+.header-form {
+    margin-bottom: 2rem;
+}
+
+.header-form-select {
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 25rem;
+    color: #4e4949;
+}
+
+.header-body-button {
+    width: 55%;
+    padding: 0.7rem;
+    background-color: #ccff90;
+    border: none;
+    box-shadow: 2px 2px #aaaaaa;
+}
+
+#kk {
+    height: 100vh;
+    max-width: 100vw;
+    position: absolute;
+}
+
+.agricultural {
+    display: flex;
+}
+.agricultural > * {
+    width: 50%;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-right: 0.2rem;
+}
+.agricultural-header {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.agricultural-text1 {
+    margin-bottom: 2rem;
+
+}
+
+.right > p {
+    font-size: 1.3rem;
+}
+
+.learning-system {
+    border: 1px solid #1b5e20;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.header-learning {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b5e20;
+    height: 2.5rem;
+    align-items: center;
+}
+
+.header-learning > * {
+    color: #c2b7b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    /* border: 1px solid black; */
+    height: 100%;
+
+}
+
+.agro-learning-content.switch, .educative-forum-content.switch,
+.consumer-content.switch
+{
+
+    display: none;
+}
+.agro-learning.switch-indicator,
+.educative-learning.switch-indicator,
+.farmers-learning.switch-indicator 
+{
+    border-bottom: 5px solid white;
+}
+
+.agro-learning-content{
+    display: flex;
+}
+
+.educative-forum-content{
+    display: flex;
+    
+}
+
+.consumer-content {
+    display: flex;
+
+}
+
+.learning-body-right  img{
+    width: 100%;
+}
+
+.educative-body-right {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.consumer-body-right img{
+    width: 100%;
+}
+
+.learning-body-left {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.educative-body-left img{
+    width:  100%;
+}
+
+.consumer-body-left {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-body-left > * {
+    margin-bottom: 0.7rem;
+}
+
+.educative-body-right > * {
+    margin-bottom: 0.7rem;
+}
+
+.consumer-body-left > * {
+    margin-bottom: 0.7rem;
+
+}
+
+.learning-body-left h3 {
+    text-align: center;
+}
+
+.educative-body-right h3 {
+    text-align: center;
+}
+
+.consumer-body-left h3 {
+    margin-left: 1.2rem;
+}
+
+.learning-body-left .pp {
+    font-size: 14px;
+    width: 90%;
+    padding: 1rem;
+}
+
+.educative-body-right .pp {
+    font-size: 14px;
+    width: 90%;
+    padding: 1rem;
+}
+
+.consumer-body-left .pp {
+    font-size: 14px;
+    width: 90%;
+    padding: 1rem;
+}
+
+.learning-body-left .read-more {
+    background-color: #ccff90;
+    color: black;
+    width: 85%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.educative-body-right .read-more {
+    background-color: #ccff90;
+    color: black;
+    width: 85%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.consumer-body-left .read-more {
+    background-color: #ccff90;
+    color: black;
+    width: 85%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.read-more p:hover {
+    text-decoration: underline;
+}
+
+.learning-body-left h3 {
+    text-align: center;
+}
+
+.connect {
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    background-color: #ccff90;
+}
+
+.connect-body {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.connect-header {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.connect-body > * {
+    width: 50%;
+}
+
+.connect-body-left > img {
+    width: 100%;
+    height: 115%;
+}
+
+.connect-body-right {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction:  column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 45%;
+    border-radius: 15px;
+}
+
+.connect-body-right > * {
+    width: 80%;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+
+}
+
+.connect-body-right div > * {
+    width: 88%;
+    border: none;
+    padding-top: 0.7rem;
+    /* border-bottom: 1px solid black; */
+}
+.connect-body-right textarea {
+
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.connect-body-right button {
+    height: 2rem;
+    border: 1px solid #ccff90;
+    background-color: #ccff90;
+}
+
+.icons {
+    color: #1b5e20;
+}
